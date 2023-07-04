@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.SqlServer.Server;
 using System;
 
+
 namespace HouseSale.Blazor.PagesBase;
 
 public class CreateHouseBase:ComponentBase
@@ -35,6 +36,7 @@ public class CreateHouseBase:ComponentBase
     protected IList<string> imageDataUrls = new List<string>();
 
     protected string singleImageUrl = string.Empty;
+
     private int Total;
     protected async Task UploadFileChange(InputFileChangeEventArgs file)
     {
@@ -104,7 +106,6 @@ public class CreateHouseBase:ComponentBase
 
 
         
-
 
     }
 
