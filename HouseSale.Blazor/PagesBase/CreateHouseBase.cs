@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.SqlServer.Server;
 using System;
 
-
 namespace HouseSale.Blazor.PagesBase;
 
 public class CreateHouseBase:ComponentBase
@@ -21,8 +20,6 @@ public class CreateHouseBase:ComponentBase
     //sing file upload image
     protected  IBrowserFile SingleImage;
     //--------------------
-
-
 
     protected IMediator mediator { get; set; }
 
